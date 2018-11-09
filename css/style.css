@@ -1,0 +1,912 @@
+/*
+BOOTSTRAP & HTML5 BOILER PLATE JS JQ INTEGRATION ALTOGETHER
+Author: Riyad Ahsan
+Email: riyad298@gmail.com
+URL: http://riyadahsan.com/
+
+/* media query for responsiveness
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1200px) {}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-header> .navbar-brand {
+    color: #00F6ED;
+    font-size:30px;
+    font-family: 'Rock Salt', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.navbar-header> .navbar-brand:hover {
+    color: #00F6ED;
+    text-shadow: 0 0 6px #00F6ED;
+
+}
+
+.navbar-collapse>.nav>li> a{
+    color:orange;
+    font-size:27px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Marck Script', cursive;
+    font-weight: bold;
+
+}
+
+
+.navbar-collapse>.nav>li> a:hover{
+    color:orange;
+    text-shadow: 0 0 8px orange;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+
+
+/* chobi wrapper part2 starts */
+.chobi_wrapper_part2 {
+    background-image: url("../images/back_me.jpg");
+
+    
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top:-20px;
+
+}
+
+
+
+.chobi_wrapper_part2_margin_left {
+
+}
+
+
+.chobi_wrapper_part2 h1 {
+    color:white;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 150px;
+    font-size: 55px;
+}
+
+.chobi_wrapper_part2 h1>span{
+    color: #00F6ED;
+    font-size: 82px;
+}
+
+
+.chobi_wrapper_part2 h3 {
+    color:white;
+    font-family: 'Permanent Marker', cursive;
+
+    font-size: 30px;
+}
+.chobi_wrapper_part2 h3>span {
+    color:orange;
+
+
+    font-size: 42px;
+}
+
+.chobi_wrapper_part2 button {
+    border-radius: 1px;
+    background-color: #00F6ED;
+    margin-top: 20px;
+    border:1px solid #00F6ED;
+    margin-bottom: 80px;
+}
+
+
+.chobi_wrapper_part2 button:hover {
+    border-radius: 1px;
+    background-color: #00F6ED;
+    margin-top: 20px;
+    box-shadow: 0px 0px 50px orange;
+    text-shadow: 0 0 12px white;
+
+}
+
+
+
+.chobi_wrapper_part2 button>a {
+    color:black;
+    font-weight: bold;
+    padding-left:25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom:12px;
+    font-size:18px;
+    font-family: 'Lato', sans-serif;
+}
+
+.chobi_wrapper_part2 button>a:hover {
+    text-decoration: none;
+
+
+}
+/* chobi wrapper part2 ends */
+
+
+
+
+
+
+/* about_me_wrapper starts */
+
+.about_me_wrapper {
+    background-color: whitesmoke;
+
+}
+
+
+.about_me_wrapper h6 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+
+
+
+}
+
+.about_me_wrapper h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 35px;
+    color:black;
+}
+
+
+.about_me_wrapper_last_icon{
+    margin-bottom: 40px;
+}
+
+.about_me_wrapper_top_div {
+
+    margin-top: -46px;
+
+}
+
+
+.about_me_wrapper i {
+    color: orange;
+
+
+    font-size: 125px;
+    padding-top: 52px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about_me_wrapper ends */
+
+
+
+
+
+
+
+
+/* skill wrapper starts */
+
+.skill_wrapper{
+
+    background-image: url("../images/0383.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+
+
+}
+
+.skill_wrapper h6, h3 , h1 {
+    color:white;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.skill_wrapper  h1 {
+    font-weight: bold;
+
+}
+
+
+.skill_wrapper_about_span2{
+    color:orange;
+}
+
+
+.skill_wrapper_about_span1 {
+    color:#00F6ED;
+}
+
+
+/* progress bar2 starts */
+.tooltip{ 
+    position:relative;
+    float:right;
+}
+.progressText {
+    color:white;
+}
+.tooltip > .tooltip-inner {background-color: orange; padding:5px 15px; color:rgb(23,44,66); font-weight:bold; font-size:13px;}
+.popOver + .tooltip > .tooltip-arrow {	border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #eebf3f;}
+
+section{
+
+}
+.progress{
+    border-radius:0;
+    overflow:visible;
+}
+.progress-bar{
+    background:#00F6ED;
+    -webkit-transition: width 1.5s ease-in-out;
+    transition: width 1.5s ease-in-out;
+}
+/* progress bar ends */
+
+
+
+
+/* progress bar2 starts */
+.tooltip{ 
+    position:relative;
+    float:right;
+}
+.progressText {
+    color:white;
+}
+.skill_wrapper_communication .tooltip > .tooltip-inner {background-color: #00F6ED; padding:5px 15px; color:rgb(23,44,66); font-weight:bold; font-size:13px;}
+.popOver + .tooltip > .tooltip-arrow {	border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #eebf3f;}
+
+section{
+
+}
+.progress{
+    border-radius:0;
+    overflow:visible;
+}
+.skill_wrapper_communication .progress-bar{
+    background:orange;
+    -webkit-transition: width 1.5s ease-in-out;
+    transition: width 1.5s ease-in-out;
+}
+/* progress bar2 ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* skill wrapper ends */
+
+
+
+
+
+
+
+
+
+/* hello wrapper part starts  */
+
+
+.hello_wrapper {
+    background-image: url("../images/hello_wrapper.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:orange;
+
+}
+
+.hello_wrapper h1  {
+    font-size: 25px;
+    margin-top: 60px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+
+
+}
+.hello_wrapper h1> span  {
+    color: #00F6ED;
+
+}
+
+
+.hello_wrapper p  {
+    font-size: 15px;
+
+    font-weight: 300;
+
+    color: #FFFFFF;
+    margin-bottom: 45px;
+}
+
+/* hello wrapper FORM part starts  */
+
+.hello_wrapper button {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 13px;
+    background-color: #00F6ED;
+    border:none;
+    border-radius: 1px;
+    color: black;
+    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.hello_wrapper button:hover , .hello_wrapper button:active , .hello_wrapper button:visited , .hello_wrapper button:focus ,  .hello_wrapper button:target  {
+
+    box-shadow: 0px 0px 35px white;
+    text-shadow: 0 0 12px white;
+
+
+
+}
+
+
+.hello_wrapper form {
+
+
+}
+
+
+.hello_wrapper input    {
+    padding-left:15px;
+    font-weight: lighter;
+    font-size: 13px;
+    border-radius: 1px;
+}
+
+.hello_wrapper textarea {
+    padding-left:15px;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-top:14px;
+    border-radius: 1px;
+}
+
+
+
+
+/* hello wrapper FORM part ends  */
+
+
+/* hello wrapper icon part starts  */
+.i_facebook2 {
+    color:#205B9F;
+
+
+}
+
+
+.i_googleplus2{
+    color: #FF3921;
+}
+
+.i_twitter2 {
+    color:#00ACE3;
+    margin-left:15px;
+    margin-right: 15px;
+
+
+
+}
+
+
+.hello_icon_row i{
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.hello_icon_row i:hover {
+    transform:  scale(1.4);
+}
+
+
+/* hello wrapper icon part ends  */
+
+
+.hello_icon_row {
+    margin-top:15px;
+}
+
+
+
+
+/* hello wrapper part ends  */
+
+
+
+
+
+/* kaj wrapper part starts  */
+.kaj_wrapper h1  {
+    font-size: 40px;
+    margin-top: 30px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+
+
+
+}
+.kaj_wrapper h1> span  {
+    color: orange;
+
+}
+
+.kaj_wrapper {
+    background-color: #00F6ED;
+
+}
+
+.kaj_wrapper p  {
+    font-size: 13px;
+
+    font-weight: 600;
+
+    color: #6C6963;
+    margin-bottom: 30px;
+}
+
+
+
+.kaj_wrapper> div>div >div+div>div {
+    margin-bottom: 15px;
+
+
+
+}
+
+
+.kaj_wrapper> div>div >div+div+div {
+    margin-bottom: 35px;
+
+}
+
+
+.kaj_wrapper button {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    font-size: 13px;
+    background-color:orange;
+    border:1px solid #d8d9db;
+    border-radius: 1px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+
+.kaj_wrapper button:hover , .kaj_wrapper button:active , .kaj_wrapper button:visited , .kaj_wrapper button:focus ,  .kaj_wrapper button:target  {
+    background-color:#363C44;
+    color: white;
+    border:1px solid #363C44;
+    border-radius: 1px;
+    box-shadow: 0px 0px 35px black;
+    text-shadow: 0 0 12px white;
+
+}
+
+
+.choto img {
+    transition: all .7s ease-in-out;
+}
+
+.choto img:hover {
+    transform: scale(.92);
+
+}
+
+.boro img {
+    transition: all .7s ease-in-out;
+}
+
+.boro img:hover {
+    transform: scale(1.08);
+}
+
+
+
+
+
+/* kaj wrapper part ends  */
+
+
+
+
+
+
+/* review wrapper part starts  */
+.review_wrapper_black_border {
+    border: 1px solid black;
+    background-color: black;
+    opacity: .8;
+    padding-left:25px;
+    padding-right: 25px;
+
+}
+
+.review_wrapper{
+
+}
+
+.review_wrapper_black_border h1{
+    color:#00F6ED ;
+    font-size: 41px;
+
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+
+
+
+/* review wrapper part ends  */
+
+/* experience wrapper part starts  */
+
+.experience_wrapper {
+    background-image: url("../images/review_background.jpg");
+
+
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Leckerli One', cursive;
+}
+
+.experience_wrapper h1 {
+    color: #00F6ED;
+    font-family: 'Leckerli One', cursive;
+    font-size: 41px;
+}
+
+
+.experience_wrapper h4 {
+    color: white;
+    text-align: center;
+    font-family: 'Leckerli One', cursive;
+    font-size: 25px;
+}
+
+
+.client_logo {
+    background-color: black;
+    opacity: .7;
+}
+
+.client_logo img {
+
+}
+
+
+
+
+
+
+/* news wrapper  part starts */
+
+.experience_wrapper_client_logo {
+    background-color:#FAFAFA ;
+    opacity: .8;
+
+}
+
+.experience_wrapper_client_logo h1 {
+    color:orange;
+    font-weight: bold;
+}
+
+
+.experience_wrapper img {
+    display: inline;
+    padding:15px;
+}
+
+.i2 {
+    margin-top:2px;
+}
+
+
+/* news wrapper  part ends */
+
+
+
+
+
+
+/* experience wrapper part ends  */
+
+
+
+/* footer wrapper part starts  */
+.footer_wrapper {
+    background-color: #3b434c;
+    color:#d9dadb;
+    font-size: 13px;
+}
+
+
+
+.footer_wrapper a:hover {
+
+    text-decoration: none;
+    color:red;
+}
+
+.footer_p01 p , .footer_p02 p {
+    padding-top:28px;
+    padding-bottom: 22px;
+}
+
+.footer_p01 p {
+    color: orange;
+    font-weight: bold;
+}
+
+.footer_p02 a {
+    color: #00F6ED;
+    font-weight: bold;
+}
+
+.footer_p01 p  {
+    padding-top:28px;
+    padding-bottom: 22px;
+}
+
+.footer_p1 p {
+    color: orange;
+    font-weight: bold;
+    margin-top:30px;
+}
+
+.footer_p2 a {
+    color: #00F6ED;
+    font-weight: bold;
+    
+}
+
+.footer_p2  {
+    margin-bottom: 30px;
+    
+}
+
+
+
+/* footer wrapper part ends  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+    /* chobi wrapper part2 media query starts */
+
+
+
+    .chobi_wrapper_part2 {
+        background-attachment: scroll;
+        background-image: url("../images/back_me2.jpg");
+    }
+
+
+
+
+    .chobi_wrapper_part2 h1 {
+        color:white;
+        font-family: 'Permanent Marker', cursive;
+        margin-top: 150px;
+        font-size: 30px;
+    }
+
+    .chobi_wrapper_part2 h1>span{
+        color: #00F6ED;
+        font-size: 40px;
+    }
+
+
+    .chobi_wrapper_part2 h3 {
+        color:white;
+        font-family: 'Permanent Marker', cursive;
+
+        font-size: 18px;
+    }
+    .chobi_wrapper_part2 h3>span {
+        color:orange;
+
+
+        font-size: 22px;
+    }
+
+    .chobi_wrapper_part2 button {
+        border-radius: 1px;
+        background-color: #00F6ED;
+        margin-top: 20px;
+        border:1px solid #00F6ED;
+    }
+
+
+    .chobi_wrapper_part2 button:hover {
+        border-radius: 1px;
+        background-color: #00F6ED;
+        margin-top: 20px;
+        box-shadow: 0px 0px 50px orange;
+        text-shadow: 0 0 12px white;
+
+    }
+
+
+
+    .chobi_wrapper_part2 button>a {
+        color:black;
+        font-weight: bold;
+        padding-left:17px;
+        padding-right: 17px;
+        padding-top: 12px;
+        padding-bottom:12px;
+        font-size:14px;
+        font-family: 'Lato', sans-serif;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* chobi wrapper part2 media query ends */
+
+    /* hello_wrapper media query starts */
+    .hello_subject_row {
+        margin-top: 15px;
+    }
+    /* hello wrapper media query ends */
+
+
+    
+    
+    /* navbar media query starts */
+    
+    .navbar-header> .navbar-brand {
+    color: #00F6ED;
+    font-size:23px;
+    
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+}
+
+
+.navbar-header> .navbar-brand:hover {
+    color: #00F6ED;
+    text-shadow: 0 0 6px #00F6ED;
+
+}
+
+.navbar-collapse>.nav>li> a{
+    color:orange;
+    font-size:17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.navbar-collapse>.nav>li> a:hover{
+    color:orange;
+    text-shadow: 0 0 8px orange;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+
+    
+    
+    
+    /* navbar media query ends */
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+
+
+@media screen and (min-width: 995px) , screen and (max-height: 719px) {
+
+
+   
+
+
+
+
+
+
+
+}
